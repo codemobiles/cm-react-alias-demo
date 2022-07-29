@@ -1,13 +1,14 @@
-import React from "react";
-import HomePage from "@/pages/HomePage";
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+import HomePage from './pages/HomePage';
 
-type Props = {};
-
-export default function App({}: Props) {
+function App() {
   return (
     <>
-      <div>App</div>
-      <HomePage />
+    <HomePage/>
     </>
-  );
+  )
 }
+
+export default App;

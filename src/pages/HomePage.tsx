@@ -1,7 +1,14 @@
 import React from "react";
+// import Header from "../component/Header";
+import Header from "@/component/Header";
 
 type Props = {};
 
 export default function HomePage({}: Props) {
-  return <div>HomePage</div>;
+  return (
+    <>
+      <Header />
+      HomePage
+    </>
+  );
 }

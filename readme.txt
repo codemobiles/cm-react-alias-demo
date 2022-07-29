@@ -1,3 +1,5 @@
+npx create-react-app cm-react-alias-demo --template typescript
+
 1. add packages 
 yarn add @craco/craco
 
